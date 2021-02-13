@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <div>
+            <label>Name </label>
+            <input type="text" , name="Name">
+        </div>
+        <br>
+        <div>
+            <label>Phone </label>
+            <input type="number" , name="Phone">
+        </div>
+        <br>
+        <div>
+            <label>Email </label>
+            <input type="email" name="Email">
+        </div>
+        <br>
+        <div>
+            <label>Which taxi do you require? </label>
+            <input type="radio" name="Ride" value="car">Car
+            <input type="radio" name="Ride" value="Van">Van
+            <input type="radio" name="Ride" value="Tuk">Tuk Tuk
+        </div>
+        <br>
+        <div>
+            <label>Extras </label>
+            <input type="checkbox" name="Extras" value="car">Baby Seat
+            <input type="checkbox" name="Extras" value="wheelChair">WheelChair Access
+            <input type="checkbox" name="Extras" value="stockTip">Stock Tip
+        </div>
+
+        <br>
+        <div>
+            <label>Pickup Date/Time </label>
+            <input type="datetime-local" name="datetime" value="mm/dd/yyyy">
+        </div>
+        <br>
+
+        <div>
+            <label>Pickup Place</label>
+            <select name "Pickupplace">
+                <option value="pickup">Select Pickup place</option>
+                <option value="Bangor">Bangor</option>
+                <option value="Helotes">Helotes</option>
+                <option value="Bandera">Bandera</option>
+                <option value="dallas">Dallas</option>
+                <option value="281">281</option>
+                <option value="tpc">TPC</option>
+
+
+            </select>
+        </div>
+
+        <br>
+
+        <div>
+            <label>Dropoff Place</label>
+            <select name "Dropoff Place">
+                <option value="Dropoff Place">Select Dropoff Place</option>
+                <option value="Bangor">Bangor</option>
+                <option value="Helotes">Helotes</option>
+                <option value="Bandera">Bandera</option>
+                <option value="dallas">Dallas</option>
+                <option value="281">281</option>
+                <option value="tpc">TPC</option>
+            </select>
+
+        </div>
+
+        <div>
+            <label>Special Instructions</label>
+            <textarea name"Instructions" rows="5" cols="50"></textarea>
+        </div>
+
+        <br>
+        <div>
+            <button type="button" class="btn btn-info">Submit</button>
+           
+        </div>
+
+
+
+
+
+    </form>
+
+
+</body>
+
+</html>
